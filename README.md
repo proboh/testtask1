@@ -16,3 +16,6 @@ Breakdown of Steps
   A static map is created using the StaticMap library, and the path is drawn on it. The map is overlaid on each video frame using OpenCV.
 5. Combine All into Video:
   The video is processed frame-by-frame, and at every second (based on FPS), the map is updated with the new GPS data. The predicted path is drawn on the video frame as well.
+
+Output:
+  video with overlay - https://drive.google.com/file/d/1xkV8JJsJwW5G7zHIKQe-PAE2tpRY_a7i/view?usp=sharing
